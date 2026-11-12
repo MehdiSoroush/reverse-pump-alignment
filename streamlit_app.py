@@ -1,6 +1,5 @@
-import streamlit as st
+"""Streamlit Community Cloud entry point."""
+from ui import render
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+if __name__ == "__main__":
+    render()
