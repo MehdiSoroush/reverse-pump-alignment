@@ -13,7 +13,7 @@ A reproducible, independently testable **reverse-dial indicator shaft-alignment 
 - Projects **both** parallel offset and angle to front and rear machine feet, for shim and lateral correction.
 - Checks four-position dial closure, measurement geometry, and completion of measurement confirmations before showing foot moves.
 - Displays a centreline graph and exports a results CSV.
-- Includes a separate computation module and **17 unit tests** covering analytical and failure cases.
+- Includes a separate computation module and **20 unit tests** covering analytical and failure cases.
 
 ## Run locally
 
@@ -95,3 +95,7 @@ The unit tests cover pure offset, pure angularity, nonzero zeros, bracket-sag co
 This open-source project is independent and is **not affiliated with or endorsed by PRÜFTECHNIK**.
 
 **Repository role:** This is the primary project repository. The similarly named [`reverse-pump-alignment-`](https://github.com/MehdiSoroush/reverse-pump-alignment-) repository is maintained as an alternate deployment using the same verified calculation engine.
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE).
